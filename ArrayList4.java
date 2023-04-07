@@ -9,11 +9,9 @@ public class ArrayList4{
         for(int idx=0;idx<arr.length;idx++){
             if(arr[idx]>max){
                 max=arr[idx];
-               
             } 
               if(arr[idx]<min){
                 min=arr[idx];
-
             }
         }
         res.add(max);
